@@ -1,0 +1,24 @@
+//burger-layout
+@import 'fonts';
+@import 'var';
+@import 'reset';
+@import 'layout';
+@import 'burger';
+//burger-layout
+
+
+//main-page
+@import 'main';
+
+@import 'social';
+
+@import 'leading-card';
+
+@import 'footer';
+
+
+
+@mixin font {
+    font-family: Gilroy;
+    font-weight: 300;
+}
