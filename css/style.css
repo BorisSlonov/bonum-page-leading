@@ -683,6 +683,25 @@ main {
   color: #11cdfa;
 }
 
+button[class*=bg-] {
+  -webkit-transition: all .94s;
+  transition: all .94s;
+}
+
+button[class*=bg-]:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  -webkit-box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.408);
+          box-shadow: 0 0 8px 4px rgba(255, 255, 255, 0.408);
+  position: relative;
+  z-index: 10;
+}
+
+button[class*=bg-]:hover .card-label::after {
+  -webkit-transform: translateY(10px) scale(1);
+          transform: translateY(10px) scale(1);
+}
+
 a[class*=bg-] {
   -webkit-transition: all .94s;
   transition: all .94s;
